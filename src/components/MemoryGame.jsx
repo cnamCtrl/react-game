@@ -20,7 +20,7 @@ export default function MemoryGame() {
     timer.current = setTimeout(() => {
       setFirstCard(defaultState);
       setSecondCard(defaultState);
-    }, 1000);
+    }, 1500);
 
     if (
       firstCard.index === null ||
